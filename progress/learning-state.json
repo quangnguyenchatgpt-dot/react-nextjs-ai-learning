@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "course": "react-nextjs-ai-learning",
+  "total_lessons": 48,
+  "weekly_sessions": 3,
+  "minutes_per_session": 120,
+  "passing_score": 75,
+  "current_lesson": "W01D01",
+  "completed_lessons": [],
+  "total_study_minutes": 0,
+  "last_assessment": null,
+  "updated_at": null
+}

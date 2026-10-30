@@ -1,0 +1,18 @@
+{
+  "skills": [
+    "HTML/CSS",
+    "JavaScript",
+    "TypeScript",
+    "React Fundamentals",
+    "React Hooks",
+    "State Management",
+    "TanStack Query",
+    "Forms & Validation",
+    "Next.js",
+    "Material UI",
+    "Refine",
+    "Testing"
+  ],
+  "ratings": {},
+  "scale": "0=not_started, 1=introduced, 2=practiced, 3=independent, 4=can_teach"
+}
