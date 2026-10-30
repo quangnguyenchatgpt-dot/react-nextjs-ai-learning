@@ -6,6 +6,11 @@ Học React với AI Agent đóng vai giảng viên: **16 tuần · 48 buổi ·
 
 Mỗi buổi: **10' ôn tập bằng code + 24' lý thuyết + 16' guided coding + 50' Lab độc lập + 10' debug/testing + 10' đánh giá**. Mỗi buổi có Lab riêng trong `labs/week-XX/LAB-WXXDYY/`; không chứa đáp án mẫu.
 
+## Learning Path
+
+- [Learning Path theo năng lực](learning-path/README.md): 5 giai đoạn, điều kiện tiên quyết, mốc đánh giá và skill matrix.
+- Kiểm tra cấu trúc: `python scripts/validate_learning_path.py`.
+
 ## Daily Plan & six Agent Skills
 
 - [48-buổi Daily Plan](DAILY_PLAN.md) có lesson, bài tập, nguồn tài liệu và status.

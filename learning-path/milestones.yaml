@@ -1,0 +1,31 @@
+milestones:
+  - id: foundation
+    lesson: W02D03
+    minimum_score: 75
+    require_mandatory_lab: true
+    require_code_review: true
+    require_explanation: true
+  - id: react-core
+    lesson: W06D01
+    minimum_score: 75
+    require_mandatory_lab: true
+    require_code_review: true
+    require_explanation: true
+  - id: react-advanced
+    lesson: W10D03
+    minimum_score: 75
+    require_mandatory_lab: true
+    require_code_review: true
+    require_explanation: true
+  - id: nextjs-ui
+    lesson: W14D03
+    minimum_score: 75
+    require_mandatory_lab: true
+    require_code_review: true
+    require_explanation: true
+  - id: production-capstone
+    lesson: W16D03
+    minimum_score: 75
+    require_mandatory_lab: true
+    require_code_review: true
+    require_explanation: true

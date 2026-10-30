@@ -11,4 +11,5 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/learning_cli.py validate
+      - run: python scripts/validate_learning_path.py
       - run: python -m unittest discover -s tests -v

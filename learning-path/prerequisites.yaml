@@ -1,0 +1,8 @@
+# Human-readable prerequisites; authoritative machine mapping: learning-path.json
+policy: previous_lesson_passed
+first_lesson: W01D01
+passing_score: 75
+mandatory_functionality: required
+on_failure: needs_revision
+on_skill_gap: assign_targeted_review
+skip_lessons: false

@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "source_curriculum": "curriculum/syllabus.json",
+  "passing_score": 75,
+  "theory_percent": 20,
+  "practice_percent": 80,
+  "phases": [
+    {
+      "id": "foundation",
+      "title": "Web & TypeScript Foundations",
+      "weeks": [
+        1,
+        2
+      ],
+      "start": "W01D01",
+      "end": "W02D03",
+      "skills": [
+        "HTML/CSS",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "milestone": "W02D03"
+    },
+    {
+      "id": "react-core",
+      "title": "React Core",
+      "weeks": [
+        3,
+        6
+      ],
+      "start": "W03D01",
+      "end": "W06D03",
+      "skills": [
+        "React Fundamentals",
+        "React Hooks"
+      ],
+      "milestone": "W06D01"
+    },
+    {
+      "id": "react-advanced",
+      "title": "React Advanced & Forms",
+      "weeks": [
+        7,
+        10
+      ],
+      "start": "W07D01",
+      "end": "W10D03",
+      "skills": [
+        "State Management",
+        "TanStack Query",
+        "Forms & Validation"
+      ],
+      "milestone": "W10D03"
+    },
+    {
+      "id": "nextjs-ui",
+      "title": "Next.js & UI",
+      "weeks": [
+        11,
+        14
+      ],
+      "start": "W11D01",
+      "end": "W14D03",
+      "skills": [
+        "Next.js",
+        "Material UI"
+      ],
+      "milestone": "W14D03"
+    },
+    {
+      "id": "production-capstone",
+      "title": "Refine, Testing & Capstone",
+      "weeks": [
+        15,
+        16
+      ],
+      "start": "W15D01",
+      "end": "W16D03",
+      "skills": [
+        "Refine",
+        "Testing"
+      ],
+      "milestone": "W16D03"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "W01D01",
+      "phase": "foundation",
+      "prerequisites": [],
+      "lab": "labs/week-01/LAB-W01D01/README.md"
+    },
+    {
+      "id": "W01D02",
+      "phase": "foundation",
+      "prerequisites": [
+        "W01D01"
+      ],
+      "lab": "labs/week-01/LAB-W01D02/README.md"
+    },
+    {
+      "id": "W01D03",
+      "phase": "foundation",
+      "prerequisites": [
+        "W01D02"
+      ],
+      "lab": "labs/week-01/LAB-W01D03/README.md"
+    },
+    {
+      "id": "W02D01",
+      "phase": "foundation",
+      "prerequisites": [
+        "W01D03"
+      ],
+      "lab": "labs/week-02/LAB-W02D01/README.md"
+    },
+    {
+      "id": "W02D02",
+      "phase": "foundation",
+      "prerequisites": [
+        "W02D01"
+      ],
+      "lab": "labs/week-02/LAB-W02D02/README.md"
+    },
+    {
+      "id": "W02D03",
+      "phase": "foundation",
+      "prerequisites": [
+        "W02D02"
+      ],
+      "lab": "labs/week-02/LAB-W02D03/README.md"
+    },
+    {
+      "id": "W03D01",
+      "phase": "react-core",
+      "prerequisites": [
+        "W02D03"
+      ],
+      "lab": "labs/week-03/LAB-W03D01/README.md"
+    },
+    {
+      "id": "W03D02",
+      "phase": "react-core",
+      "prerequisites": [
+        "W03D01"
+      ],
+      "lab": "labs/week-03/LAB-W03D02/README.md"
+    },
+    {
+      "id": "W03D03",
+      "phase": "react-core",
+      "prerequisites": [
+        "W03D02"
+      ],
+      "lab": "labs/week-03/LAB-W03D03/README.md"
+    },
+    {
+      "id": "W04D01",
+      "phase": "react-core",
+      "prerequisites": [
+        "W03D03"
+      ],
+      "lab": "labs/week-04/LAB-W04D01/README.md"
+    },
+    {
+      "id": "W04D02",
+      "phase": "react-core",
+      "prerequisites": [
+        "W04D01"
+      ],
+      "lab": "labs/week-04/LAB-W04D02/README.md"
+    },
+    {
+      "id": "W04D03",
+      "phase": "react-core",
+      "prerequisites": [
+        "W04D02"
+      ],
+      "lab": "labs/week-04/LAB-W04D03/README.md"
+    },
+    {
+      "id": "W05D01",
+      "phase": "react-core",
+      "prerequisites": [
+        "W04D03"
+      ],
+      "lab": "labs/week-05/LAB-W05D01/README.md"
+    },
+    {
+      "id": "W05D02",
+      "phase": "react-core",
+      "prerequisites": [
+        "W05D01"
+      ],
+      "lab": "labs/week-05/LAB-W05D02/README.md"
+    },
+    {
+      "id": "W05D03",
+      "phase": "react-core",
+      "prerequisites": [
+        "W05D02"
+      ],
+      "lab": "labs/week-05/LAB-W05D03/README.md"
+    },
+    {
+      "id": "W06D01",
+      "phase": "react-core",
+      "prerequisites": [
+        "W05D03"
+      ],
+      "lab": "labs/week-06/LAB-W06D01/README.md"
+    },
+    {
+      "id": "W06D02",
+      "phase": "react-core",
+      "prerequisites": [
+        "W06D01"
+      ],
+      "lab": "labs/week-06/LAB-W06D02/README.md"
+    },
+    {
+      "id": "W06D03",
+      "phase": "react-core",
+      "prerequisites": [
+        "W06D02"
+      ],
+      "lab": "labs/week-06/LAB-W06D03/README.md"
+    },
+    {
+      "id": "W07D01",
+      "phase": "react-advanced",
+      "prerequisites": [
+        "W06D03"
+      ],
+      "lab": "labs/week-07/LAB-W07D01/README.md"
+    },
+    {
+      "id": "W07D02",
+      "phase": "react-advanced",
+      "prerequisites": [
+        "W07D01"
+      ],
+      "lab": "labs/week-07/LAB-W07D02/README.md"
+    },
+    {
+      "id": "W07D03",
+      "phase": "react-advanced",
+      "prerequisites": [
+        "W07D02"
+      ],
+      "lab": "labs/week-07/LAB-W07D03/README.md"
+    },
+    {
+      "id": "W08D01",
+      "phase": "react-advanced",
+      "prerequisites": [
+        "W07D03"
+      ],
+      "lab": "labs/week-08/LAB-W08D01/README.md"
+    },
+    {
+      "id": "W08D02",
+      "phase": "react-advanced",
+      "prerequisites": [
+        "W08D01"
+      ],
+      "lab": "labs/week-08/LAB-W08D02/README.md"
+    },
+    {
+      "id": "W08D03",
+      "phase": "react-advanced",
+      "prerequisites": [
+        "W08D02"
+      ],
+      "lab": "labs/week-08/LAB-W08D03/README.md"
+    },
+    {
+      "id": "W09D01",
+      "phase": "react-advanced",
+      "prerequisites": [
+        "W08D03"
+      ],
+      "lab": "labs/week-09/LAB-W09D01/README.md"
+    },
+    {
+      "id": "W09D02",
+      "phase": "react-advanced",
+      "prerequisites": [
+        "W09D01"
+      ],
+      "lab": "labs/week-09/LAB-W09D02/README.md"
+    },
+    {
+      "id": "W09D03",
+      "phase": "react-advanced",
+      "prerequisites": [
+        "W09D02"
+      ],
+      "lab": "labs/week-09/LAB-W09D03/README.md"
+    },
+    {
+      "id": "W10D01",
+      "phase": "react-advanced",
+      "prerequisites": [
+        "W09D03"
+      ],
+      "lab": "labs/week-10/LAB-W10D01/README.md"
+    },
+    {
+      "id": "W10D02",
+      "phase": "react-advanced",
+      "prerequisites": [
+        "W10D01"
+      ],
+      "lab": "labs/week-10/LAB-W10D02/README.md"
+    },
+    {
+      "id": "W10D03",
+      "phase": "react-advanced",
+      "prerequisites": [
+        "W10D02"
+      ],
+      "lab": "labs/week-10/LAB-W10D03/README.md"
+    },
+    {
+      "id": "W11D01",
+      "phase": "nextjs-ui",
+      "prerequisites": [
+        "W10D03"
+      ],
+      "lab": "labs/week-11/LAB-W11D01/README.md"
+    },
+    {
+      "id": "W11D02",
+      "phase": "nextjs-ui",
+      "prerequisites": [
+        "W11D01"
+      ],
+      "lab": "labs/week-11/LAB-W11D02/README.md"
+    },
+    {
+      "id": "W11D03",
+      "phase": "nextjs-ui",
+      "prerequisites": [
+        "W11D02"
+      ],
+      "lab": "labs/week-11/LAB-W11D03/README.md"
+    },
+    {
+      "id": "W12D01",
+      "phase": "nextjs-ui",
+      "prerequisites": [
+        "W11D03"
+      ],
+      "lab": "labs/week-12/LAB-W12D01/README.md"
+    },
+    {
+      "id": "W12D02",
+      "phase": "nextjs-ui",
+      "prerequisites": [
+        "W12D01"
+      ],
+      "lab": "labs/week-12/LAB-W12D02/README.md"
+    },
+    {
+      "id": "W12D03",
+      "phase": "nextjs-ui",
+      "prerequisites": [
+        "W12D02"
+      ],
+      "lab": "labs/week-12/LAB-W12D03/README.md"
+    },
+    {
+      "id": "W13D01",
+      "phase": "nextjs-ui",
+      "prerequisites": [
+        "W12D03"
+      ],
+      "lab": "labs/week-13/LAB-W13D01/README.md"
+    },
+    {
+      "id": "W13D02",
+      "phase": "nextjs-ui",
+      "prerequisites": [
+        "W13D01"
+      ],
+      "lab": "labs/week-13/LAB-W13D02/README.md"
+    },
+    {
+      "id": "W13D03",
+      "phase": "nextjs-ui",
+      "prerequisites": [
+        "W13D02"
+      ],
+      "lab": "labs/week-13/LAB-W13D03/README.md"
+    },
+    {
+      "id": "W14D01",
+      "phase": "nextjs-ui",
+      "prerequisites": [
+        "W13D03"
+      ],
+      "lab": "labs/week-14/LAB-W14D01/README.md"
+    },
+    {
+      "id": "W14D02",
+      "phase": "nextjs-ui",
+      "prerequisites": [
+        "W14D01"
+      ],
+      "lab": "labs/week-14/LAB-W14D02/README.md"
+    },
+    {
+      "id": "W14D03",
+      "phase": "nextjs-ui",
+      "prerequisites": [
+        "W14D02"
+      ],
+      "lab": "labs/week-14/LAB-W14D03/README.md"
+    },
+    {
+      "id": "W15D01",
+      "phase": "production-capstone",
+      "prerequisites": [
+        "W14D03"
+      ],
+      "lab": "labs/week-15/LAB-W15D01/README.md"
+    },
+    {
+      "id": "W15D02",
+      "phase": "production-capstone",
+      "prerequisites": [
+        "W15D01"
+      ],
+      "lab": "labs/week-15/LAB-W15D02/README.md"
+    },
+    {
+      "id": "W15D03",
+      "phase": "production-capstone",
+      "prerequisites": [
+        "W15D02"
+      ],
+      "lab": "labs/week-15/LAB-W15D03/README.md"
+    },
+    {
+      "id": "W16D01",
+      "phase": "production-capstone",
+      "prerequisites": [
+        "W15D03"
+      ],
+      "lab": "labs/week-16/LAB-W16D01/README.md"
+    },
+    {
+      "id": "W16D02",
+      "phase": "production-capstone",
+      "prerequisites": [
+        "W16D01"
+      ],
+      "lab": "labs/week-16/LAB-W16D02/README.md"
+    },
+    {
+      "id": "W16D03",
+      "phase": "production-capstone",
+      "prerequisites": [
+        "W16D02"
+      ],
+      "lab": "labs/week-16/LAB-W16D03/README.md"
+    }
+  ]
+}
