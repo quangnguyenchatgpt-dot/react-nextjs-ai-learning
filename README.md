@@ -2,6 +2,12 @@
 
 Học React với AI Agent đóng vai giảng viên: **16 tuần · 48 buổi · 96 giờ · 3 buổi/tuần · 2 giờ/buổi**. Đối tượng: beginner.
 
+## Daily Plan & six Agent Skills
+
+- [48-buổi Daily Plan](DAILY_PLAN.md) có lesson, bài tập, nguồn tài liệu và status.
+- [Daily Progress](progress/README.md) có trạng thái từng ngày, điểm, phản hồi và thời gian thực tế.
+- 6 skills: `plan-daily-learning`, `teach-lesson`, `review-assignment`, `conduct-exam`, `debug-coach`, `update-progress` (Codex ở `.agents/skills`, Antigravity ở `.agent/skills`).
+
 ## Bắt đầu
 1. Clone repository và mở bằng VS Code/Codex hoặc Google Antigravity.
 2. Đọc `AGENTS.md`, `curriculum/syllabus.json`, `progress/learning-state.json`.

@@ -1,9 +1,6 @@
 ---
 name: update-progress
-description: Safely persist verified learning progress
+description: Update daily session status and audit trail after evidence-based learner work and assessment.
 ---
-# update-progress
-
-Run learning_cli status/validate; require report on passed lesson; run complete with score/minutes/report; inspect diff; ask learner to commit/push changes.
-
-Follow root `AGENTS.md` and applicable rules. Respond in Vietnamese; technical names remain English. Never forge completion evidence.
+# Update Progress
+Use `python scripts/daily_progress.py status`, `start`, `log`, `submit`, `review`. Record only actual study minutes and actual code evidence. For a verified pass, create a rubric report first; `review --result passed --report ...` advances aggregate state through learning_cli. Commit and push changed files with permission. Never overwrite history or skip unfinished lessons.
