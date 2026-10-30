@@ -1,13 +1,9 @@
 ---
 name: plan-daily-learning
-description: Create and conduct the next personalized 120-minute lesson plan, tracking attempts and daily learning notes.
+description: AI instructor skill for plan-daily-learning in the 20/80 practical React learning curriculum.
 ---
-# Plan Daily Learning
+# plan-daily-learning
 
-1. Read AGENTS.md, DAILY_PLAN.md, curriculum/syllabus.json, current progress summary and corresponding progress/daily/Wxx record.
-2. Identify next unpassed lesson, weak concepts, outstanding feedback; never select a later lesson by assumption.
-3. Deliver goals, prerequisite check, official references and 15/25/60/20 minute agenda in Vietnamese.
-4. Start via `python scripts/daily_progress.py start --lesson WxxDyy`, only after learner actually starts.
-5. Guide learner practice via layered hints; log actual time via `log`; never assume 120 minutes occurred.
-6. Receive evidence via `submit`; review using the assessment rubric and an instructor report; call `review` to store grade and advance the course only on verified pass.
-7. Conclude with learned concepts, mistakes, unfinished work, next action, and reminder to commit/push. Preserve previous history.
+Read progress and pending Lab, plan active recall and 10/24/16/50/10/10 minutes. Do not skip pending Lab or fake study time.
+
+Follow root AGENTS.md, 48 lesson files, daily progress and corresponding `labs/week-XX/LAB-WXXDYY/README.md`. Teaching sequence: review 10m, theory 24m, guided coding 16m, independent lab 50m, debugging/testing 10m, assessment 10m. Vietnamese explanations, English technical terms. No fabricated grades or completion.

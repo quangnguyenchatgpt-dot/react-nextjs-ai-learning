@@ -1,37 +1,27 @@
 # W02D03 — React environment and JSX
 
-**Tuần 2, buổi 3 · 120 phút · Mức beginner**
+**Tuần 2, buổi 3 · Beginner pathway · 120 phút**
 
-## Mục tiêu học tập
-- Giải thích được các khái niệm: Vite, React tree, JSX, build scripts.
-- Tự triển khai bài tập "Create a first Vite React app" và trình bày cách giải.
-- Xác minh yêu cầu và nêu ít nhất một hạn chế/edge case.
+## Mục tiêu
+- Hiểu và tự diễn giải: Vite, React tree, JSX, build scripts.
+- Tự làm bài thực hành: Create a first Vite React app.
+- Phân tích lỗi, chạy thử và giải thích lựa chọn code.
 
-## Tài liệu bắt buộc
+## Tài liệu lý thuyết chính thức
 - https://react.dev/learn/writing-markup-with-jsx
-- [Thư viện tài liệu chính thức](../../../resources/references.md)
 
-## Lesson plan (120 phút)
-1. **15 phút ôn tập:** Agent hỏi 2-3 câu về bài trước; buổi đầu kiểm tra môi trường học và kiến thức nền.
-2. **25 phút lý thuyết:** Agent chia nhỏ chủ đề "Vite, React tree, JSX, build scripts", có minh họa tối thiểu và câu hỏi kiểm tra.
-3. **60 phút thực hành:** Học viên tự code "Create a first Vite React app"; Agent hướng dẫn theo 3 mức gợi ý, không làm hộ.
-4. **20 phút tổng kết:** Demo, code review, tự giải thích, báo cáo điểm và kế hoạch sửa lỗi.
+## Daily sequence (20% theory / 80% practice)
+1. **10 phút — Review (active recall):** coding mini-task về bài trước hoặc diagnostic với buổi đầu.
+2. **24 phút — Theory:** giảng trọng tâm Vite, React tree, JSX, build scripts và giải thích ví dụ ngắn.
+3. **16 phút — Guided Coding:** Agent cùng học viên thực hiện ví dụ khác với lời giải Lab chính.
+4. **50 phút — Independent Lab:** học viên làm [LAB-W02D03](../../../labs/week-02/LAB-W02D03/README.md).
+5. **10 phút — Debugging & Testing:** chạy code, kiểm thử edge case và sửa lỗi.
+6. **10 phút — Assessment:** code review, hỏi giải thích, feedback và ghi tiến độ.
 
-## Assignment
-**Task:** Create a first Vite React app.
+## Required deliverables
+- Source code của Lab hoặc dự án liên quan.
+- Hướng dẫn chạy ngắn và ít nhất một bằng chứng test/demo.
+- Tự giải thích một quyết định kỹ thuật và một lỗi đã gặp.
 
-**Deliverables:** Source code trong thư mục `projects/` tương ứng; README ngắn về cách chạy; ảnh/chứng cứ terminal hoặc test nếu phù hợp; giải thích 3 quyết định kỹ thuật.
-
-**Acceptance criteria:**
-- Triển khai đúng hành vi bài tập và demo được.
-- Code rõ ràng, có type khi dùng TypeScript.
-- Có xử lý trường hợp đầu vào không hợp lệ hoặc empty/error khi phù hợp.
-- Giải thích được tại sao dùng khái niệm vừa học.
-
-## Questions & reflection
-- Vite, React tree, JSX, build scripts giải quyết vấn đề gì?
-- Cách làm của bạn khác với giải pháp thay thế nào?
-- Nếu yêu cầu tăng gấp đôi độ phức tạp, bạn sẽ refactor ở đâu?
-
-## Assessment
-Dùng `assessments/rubrics/default.md`, chấm theo thực tế, pass >=75 và chức năng bắt buộc hoàn tất. Lưu `assessments/reports/W02D03.md`, sau đó mới chạy CLI `complete`. Nếu chưa đạt, đưa gợi ý và luyện tập tương tự.
+## Completion rule
+Đạt >=75/100 theo rubric và đáp ứng chức năng bắt buộc. Nếu chưa đạt, tiếp tục Lab vào buổi học thực tế kế tiếp, không tự động pass. Không ghi thời gian giả định.

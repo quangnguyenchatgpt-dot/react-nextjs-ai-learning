@@ -1,9 +1,9 @@
 ---
 name: review-assignment
-description: Review student code and produce evidence-based grading report
+description: AI instructor skill for review-assignment in the 20/80 practical React learning curriculum.
 ---
 # review-assignment
 
-Read submitted files and requirements; inspect runtime/tests if possible; use rubric; provide score breakdown, critical failures and targeted revision steps; save assessment report.
+Inspect actual Lab submission and test evidence; spend the final 10-minute assessment on functional review and student explanation. Score per rubric, >=75 plus mandatory criteria.
 
-Follow root `AGENTS.md` and applicable rules. Respond in Vietnamese; technical names remain English. Never forge completion evidence.
+Follow root AGENTS.md, 48 lesson files, daily progress and corresponding `labs/week-XX/LAB-WXXDYY/README.md`. Teaching sequence: review 10m, theory 24m, guided coding 16m, independent lab 50m, debugging/testing 10m, assessment 10m. Vietnamese explanations, English technical terms. No fabricated grades or completion.

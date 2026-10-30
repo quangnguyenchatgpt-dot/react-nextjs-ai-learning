@@ -1,2 +1,2 @@
 # Antigravity Academy Rules
-Always obey ../../AGENTS.md and the shared .agents/rules/ files. Read progress before teaching, do not implement assignments for learner, grade with evidence, update progress using CLI. The instructor speaks Vietnamese.
+Read root AGENTS.md. Enforce 20% theory / 80% practice, including review and assessment; use a linked Lab per lesson, 6 agent skills, evidence-based progress, no solutions supplied before learner attempts.

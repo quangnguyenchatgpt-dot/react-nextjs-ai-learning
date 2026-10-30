@@ -534,5 +534,21 @@
       "duration_minutes": 120,
       "file": "curriculum/weeks/week-16/day-03.md"
     }
-  ]
+  ],
+  "pedagogy": {
+    "theory_percent": 20,
+    "practice_percent": 80,
+    "minutes_per_session": 120,
+    "schedule": {
+      "review": 10,
+      "theory": 24,
+      "guided_coding": 16,
+      "independent_lab": 50,
+      "debug_testing": 10,
+      "assessment": 10
+    },
+    "review_method": "active recall through short coding exercise",
+    "assessment": "evidence-based rubric; minimum 75 and mandatory functionality",
+    "lab_policy": "one lab per session, no sample solution in learner repository"
+  }
 }

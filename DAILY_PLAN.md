@@ -1,8 +1,10 @@
 # DAILY PLAN — 16 tuần / 48 buổi
 
+> **20% lý thuyết (24 phút) / 80% thực hành (96 phút).** Ôn tập bằng active recall và code, cuối buổi chấm bài có bằng chứng.
+
 > Lịch theo **buổi học**, không gán ngày lịch cố định. Chọn 3 ngày bất kỳ mỗi tuần, 120 phút/buổi. Nếu bỏ lỡ, tiếp tục từ buổi chưa hoàn thành.
 
-**Mỗi buổi:** 15 phút ôn tập · 25 phút giảng dạy · 60 phút thực hành · 20 phút chấm bài & phản hồi.
+**Mỗi buổi:** 10 phút ôn tập bằng code · 24 phút lý thuyết · 16 phút guided coding · 50 phút independent lab · 10 phút debugging/testing · 10 phút đánh giá.
 
 | Buổi | Chủ đề | Thực hành | Tài liệu | Trạng thái |
 |---|---|---|---|---|
